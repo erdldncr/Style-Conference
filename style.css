@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* First PArt */
+.top-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(42,63,79);
+}
+/* LOGO DATE */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin:30px auto;
+}
+.title p{
+    margin: 10px;
+    color: rgb(223,226,229);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+.title p:hover{
+    color:rgb(86,119,116);
+}
+.list-date{
+    padding-top: 40px;
+}
+.list-date ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+.list-date li{
+    margin: 10px ;
+}
+.list-date a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:#FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+#position{
+    text-align: right;
+    font-size: 1.4rem;
+    color:rgb(86,117,115);
+    padding-right: 40px ;
+}
+/* EXPLANATION OF BRAND */
+aside{
+    text-align: center;
+    line-height: 2;
+    font-size: 1.3rem;
+}
+aside h2{
+    color:rgb(86,117,115);
+}
+aside p{
+    color: rgb(223,226,229);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+/* BUTTON */
+.register{
+    margin: 30px auto 50px;
+}
+.register button{
+    padding: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+/* FEATURES */
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 5% 10%;
+
+}
+.sub-container{
+    width: 25%;
+    /* display: inline-flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin: 10px 3px;
+   
+}
+.sub-container img{
+    margin: 10px;
+    border-radius: 10px;
+}
+.sub-container h3,h2,p{
+    padding-left: 10px;
+    margin: 10px 0px;
+}
+/* footer */
+footer{
+    background-color: rgb(42,63,79);
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+footer p{
+    color:rgb(86,117,115);
+}
+footer ul{
+color: #FFF;
+list-style-type: none;
+display: flex;
+}
+footer ul li{
+    margin: 20px;
+}
